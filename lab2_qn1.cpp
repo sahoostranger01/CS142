@@ -60,7 +60,7 @@ class LinkedList{
             count++;
             current=current->ptr;
         }
-        //Put conditionon pos
+        //Put condition for pos
         if(pos>0 && pos<=count)
         {
             //If position is 1st position
