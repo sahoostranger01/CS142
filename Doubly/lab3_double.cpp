@@ -257,13 +257,13 @@ int main()
     cout<<"The number of items after delete at position="<<l1.countItems()<<endl;
     cout<<endl;
     
-    cout<<"Display after insertion at particular position(invalid ex-1)::"<<endl;
+    cout<<"Display after deletion at particular position(invalid ex-1)::"<<endl;
     l1.deleteAt(-1);//use of deleteAt
     l1.display();
     cout<<"The number of items after delete at position="<<l1.countItems()<<endl;
     cout<<endl;
     
-    cout<<"Display after insertion at particular position(invalid ex-2)::"<<endl;
+    cout<<"Display after deletion at particular position(invalid ex-2)::"<<endl;
     l1.deleteAt(8998);//use of deleteAt
     l1.display();
     cout<<"The number of items after delete at position="<<l1.countItems()<<endl;
