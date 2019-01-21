@@ -1,4 +1,4 @@
-//Implementation of Singly Linked List using C++
+//Implementation of Circular Linked List using C++
 #include <iostream>
 
 using namespace std;
