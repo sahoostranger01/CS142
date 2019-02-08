@@ -172,21 +172,21 @@ int main()
     {
         y.Enqueue(i);
     }
-    cout<<"Aju"<<endl;
+    cout<<"Display of queue"<<endl;
     y.display();
     cout<<endl;
     
     y.Dequeue();
+    cout<<"Display of queue after dequeue(one time)"<<endl;
     y.display();
-    cout<<"Aju"<<endl;
     cout<<endl;
     
-    cout<<y.size()<<endl;
-    cout<<"Aju"<<endl;
-   // x.display();
-    cout<<endl;
+    cout<<"Size of queue="<<y.size()<<endl;
     
-    y.isEmpty();
+    if(y.isEmpty()==true)
+    cout<<"Empty queue;"<<endl;
+    else
+    cout<<"Non empty queue"<<endl;
     cout<<"Aju"<<endl;
     //x.display();
     cout<<endl;
