@@ -38,7 +38,7 @@ void Display() {
    else {
       cout<<"Queue elements are : ";
       //Display value from front to rear
-      for (int i = front; i <= rear; i++)
+      for (int i = front; i <= end; i++)
          cout<<queue[i]<<" ";
       cout<<endl;
    }
